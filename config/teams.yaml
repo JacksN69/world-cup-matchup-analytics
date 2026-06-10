@@ -1,0 +1,256 @@
+# World Cup Teams Configuration
+# Contains team metadata for matchup analysis
+
+teams:
+  # Group A
+  - id: 1
+    name: "Argentina"
+    code: "ARG"
+    confederation: "CONMEBOL"
+    world_ranking: 3
+    group: "A"
+
+  - id: 2
+    name: "France"
+    code: "FRA"
+    confederation: "UEFA"
+    world_ranking: 4
+    group: "A"
+
+  - id: 3
+    name: "Poland"
+    code: "POL"
+    confederation: "UEFA"
+    world_ranking: 26
+    group: "A"
+
+  - id: 4
+    name: "Saudi Arabia"
+    code: "KSA"
+    confederation: "AFC"
+    world_ranking: 51
+    group: "A"
+
+  # Group B
+  - id: 5
+    name: "Spain"
+    code: "ESP"
+    confederation: "UEFA"
+    world_ranking: 7
+    group: "B"
+
+  - id: 6
+    name: "Germany"
+    code: "GER"
+    confederation: "UEFA"
+    world_ranking: 11
+    group: "B"
+
+  - id: 7
+    name: "Japan"
+    code: "JPN"
+    confederation: "AFC"
+    world_ranking: 24
+    group: "B"
+
+  - id: 8
+    name: "Costa Rica"
+    code: "CRC"
+    confederation: "CONCACAF"
+    world_ranking: 31
+    group: "B"
+
+  # Group C
+  - id: 9
+    name: "Belgium"
+    code: "BEL"
+    confederation: "UEFA"
+    world_ranking: 2
+    group: "C"
+
+  - id: 10
+    name: "Canada"
+    code: "CAN"
+    confederation: "CONCACAF"
+    world_ranking: 41
+    group: "C"
+
+  - id: 11
+    name: "Morocco"
+    code: "MAR"
+    confederation: "CAF"
+    world_ranking: 22
+    group: "C"
+
+  - id: 12
+    name: "Croatia"
+    code: "CRO"
+    confederation: "UEFA"
+    world_ranking: 12
+    group: "C"
+
+  # Group D
+  - id: 13
+    name: "Denmark"
+    code: "DEN"
+    confederation: "UEFA"
+    world_ranking: 10
+    group: "D"
+
+  - id: 14
+    name: "Tunisia"
+    code: "TUN"
+    confederation: "CAF"
+    world_ranking: 30
+    group: "D"
+
+  - id: 15
+    name: "Mexico"
+    code: "MEX"
+    confederation: "CONCACAF"
+    world_ranking: 13
+    group: "D"
+
+  - id: 16
+    name: "Australia"
+    code: "AUS"
+    confederation: "AFC"
+    world_ranking: 38
+    group: "D"
+
+  # Group E
+  - id: 17
+    name: "Spain"
+    code: "ESP"
+    confederation: "UEFA"
+    world_ranking: 7
+    group: "E"
+
+  - id: 18
+    name: "Germany"
+    code: "GER"
+    confederation: "UEFA"
+    world_ranking: 11
+    group: "E"
+
+  - id: 19
+    name: "Japan"
+    code: "JPN"
+    confederation: "AFC"
+    world_ranking: 24
+    group: "E"
+
+  - id: 20
+    name: "Costa Rica"
+    code: "CRC"
+    confederation: "CONCACAF"
+    world_ranking: 31
+    group: "E"
+
+  # Group F
+  - id: 21
+    name: "Belgium"
+    code: "BEL"
+    confederation: "UEFA"
+    world_ranking: 2
+    group: "F"
+
+  - id: 22
+    name: "Canada"
+    code: "CAN"
+    confederation: "CONCACAF"
+    world_ranking: 41
+    group: "F"
+
+  - id: 23
+    name: "Morocco"
+    code: "MAR"
+    confederation: "CAF"
+    world_ranking: 22
+    group: "F"
+
+  - id: 24
+    name: "Croatia"
+    code: "CRO"
+    confederation: "UEFA"
+    world_ranking: 12
+    group: "F"
+
+  # Group G
+  - id: 25
+    name: "Brazil"
+    code: "BRA"
+    confederation: "CONMEBOL"
+    world_ranking: 1
+    group: "G"
+
+  - id: 26
+    name: "Switzerland"
+    code: "CHE"
+    confederation: "UEFA"
+    world_ranking: 15
+    group: "G"
+
+  - id: 27
+    name: "Cameroon"
+    code: "CMR"
+    confederation: "CAF"
+    world_ranking: 43
+    group: "G"
+
+  - id: 28
+    name: "Serbia"
+    code: "SRB"
+    confederation: "UEFA"
+    world_ranking: 21
+    group: "G"
+
+  # Group H
+  - id: 29
+    name: "Portugal"
+    code: "POR"
+    confederation: "UEFA"
+    world_ranking: 9
+    group: "H"
+
+  - id: 30
+    name: "Uruguay"
+    code: "URU"
+    confederation: "CONMEBOL"
+    world_ranking: 14
+    group: "H"
+
+  - id: 31
+    name: "Ghana"
+    code: "GHA"
+    confederation: "CAF"
+    world_ranking: 61
+    group: "H"
+
+  - id: 32
+    name: "South Korea"
+    code: "KOR"
+    confederation: "AFC"
+    world_ranking: 28
+    group: "H"
+
+# Confederations
+confederations:
+  UEFA: "Union of European Football Associations"
+  CONMEBOL: "Confederación Sudamericana de Fútbol"
+  AFC: "Asian Football Confederation"
+  CAF: "Confederation of African Football"
+  CONCACAF: "Confederation of North, Central American and Caribbean Association Football"
+
+# World Rankings Reference (as of tournament start)
+world_rankings:
+  1: "Brazil"
+  2: "Belgium"
+  3: "Argentina"
+  4: "France"
+  5: "England"
+  6: "Netherlands"
+  7: "Spain"
+  8: "Italy"
+  9: "Portugal"
+  10: "Denmark"
